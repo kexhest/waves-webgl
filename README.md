@@ -1,7 +1,7 @@
 Waves WEBGL
 ===============
 
-Just some imagemanupulation with shaders, creating an illusion of waves on a static image.
+Just some image manupulation with shaders, creating an illusion of waves on a static image.
 
 ## Installation
 If you've never used Node or npm before, you'll need to install Node.

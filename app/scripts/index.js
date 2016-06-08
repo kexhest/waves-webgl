@@ -44,10 +44,12 @@ function render() {
 const photo = document.createElement('img');
 photo.src = bg;
 photo.onload = function() {
+  const { width, height } = this;
+
   startTime = now();
 
-  canvas.width = this.width;
-  canvas.height = this.height;
+  canvas.width = width;
+  canvas.height = height;
 
   gl = createContext(canvas, render);
   shader = createShader(gl, vertex, fragment);
