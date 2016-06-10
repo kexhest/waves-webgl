@@ -1,4 +1,4 @@
-import './styles/main.scss';
-import './scripts/index';
+import './styles/main.scss'
+import './scripts/index'
 
-import './scripts/bg.jpg';
+import './scripts/bg.jpg'
